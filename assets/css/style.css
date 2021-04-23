@@ -7,9 +7,23 @@ body {
     font-family: 'Balsamiq Sans', Sans Serif;
     }
 
+/*--Callout--*/
 h1 {
     text-align: center;
-    margin-top: 75px;
-    font-size: 10em;
+    margin-top: 200px;
+    font-size: 7.5em;
     font-weight: 900 !important; 
 }
+/*--callout--*/
+
+/*--Start Game Button--*/
+.btn-circle.btn-xl {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            border-color: black;
+            font-size: 15px;
+            text-align: center;
+        }
+
+/*--start game button--*/
