@@ -3,7 +3,7 @@ html {
   min-height: 100%;
 }
 
-body {
+body{
     font-family: 'Balsamiq Sans', Sans Serif;
     }
 
@@ -18,12 +18,19 @@ h1 {
 
 /*--Start Game Button--*/
 .btn-circle.btn-xl {
-            width: 100px;
-            height: 100px;
-            border-radius: 50px;
-            border-color: black;
-            font-size: 15px;
-            text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-color: black;
+    font-size: 15px;
+    text-align: center;
         }
-
 /*--start game button--*/
+
+.back {
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 2.5em;
+    color: black;
+    font-weight: 900 !important; 
+}
