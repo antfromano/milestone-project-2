@@ -21,5 +21,6 @@
    },
    "files.autoSave": "off",
    "workbench.colorTheme": "dark",
-   "editor.defaultFormatter": "HookyQR.beautify",
+"editor.defaultFormatter": "HookyQR.beautify",
+"editor.autoSave": "on",
 }

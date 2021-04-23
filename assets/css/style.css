@@ -1,0 +1,15 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    font-family: 'Balsamiq Sans', Sans Serif;
+    }
+
+h1 {
+    text-align: center;
+    margin-top: 75px;
+    font-size: 10em;
+    font-weight: 900 !important; 
+}
