@@ -54,6 +54,7 @@ h1 {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 500px;
 }
 /*--match game--*/
 
@@ -63,15 +64,16 @@ h1 {
     height: calc(33.333% - 10px);
     margin: 2px;
     position: relative;
-    transform-style:  preserve-3d;
     transform: scale(1);
+    transform-style: preserver-3d;
+    transition: transform .25s;
 }
 
 .front, .back {
     width: 100%;
     height: 100%;
     padding: 10px;
-    position: absolute;
+    position: absolute; 
     border-radius: 2px;
     background: white;
 }
@@ -79,5 +81,9 @@ h1 {
 .match-card:active {
     transform: scale(0.75);
     transition: transform .25s;
+}
+
+.match-card.flip {
+    transform: rotateX(180deg);
 }
 /*--cards--*/
