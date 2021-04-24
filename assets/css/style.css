@@ -3,9 +3,20 @@ html {
   min-height: 100%;
 }
 
-body{
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+/*--insert background: color--*/
+
     font-family: 'Balsamiq Sans', Sans Serif;
-    }
+}
 
 /*--Callout--*/
 h1 {
@@ -36,6 +47,14 @@ h1 {
 }
 /*--back icon--*/
 
+/*--Match Game--*/
+.match-game {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*--match game--*/
 /*--Cards--*/
-
 /*--cards--*/
