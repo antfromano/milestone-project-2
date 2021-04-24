@@ -40,7 +40,7 @@ h1 {
 
 /*--Back Icon--*/
 .back {
-    margin-left: 25px;
+    margin-left: 7.5px;
     font-size: 2.5em;
     color: black;
     font-weight: 900 !important; 
@@ -85,6 +85,10 @@ h1 {
 }
 
 .match-card.flip {
+    transform: rotateX(180deg);
+}
+
+.front {
     transform: rotateX(180deg);
 }
 /*--cards--*/
