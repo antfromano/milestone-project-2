@@ -1,55 +1,55 @@
 const cards = document.querySelectorAll('.match-card');
 
-let hasFlippedCard = false;
+let hasFlippedBill = false;
 let freezeBoard = false;
-let firstCard, secondCard;
+let firstBill, secondBill;
 
-function flipCard() {
+function flipBill() {
     if (freezeBoard) return;
-    if (this === firstCard) return;
+    if (this === firstBill) return;
     this.classList.toggle('flip');
     this.classList.add('flip');
 
-    if (!hasFlippedCard) {
-    hasFlippedCard = true;
-    firstCard = this;
+    if (!hasFlippedBill) {
+    hasFlippedBill = true;
+    firstBill = this;
     return;
     }
 
-    secondCard = this;
-    hasFlippedCard = false;
+    secondBill = this;
+    hasFlippedBill = false;
     
 checkForMatch();
 }
 
 function checkForMatch() {
-    if(firstCard.dataset.framework === secondCard.dataset.framework) {
-        disableCards();
+    if(firstBill.dataset.framework === secondBill.dataset.framework) {
+        disableBills();
         return;
     }
-    unflipCards();
+    unflipBills();
 }
 
-function disableCards() {
-    firstCard.remoteEventListener('click', flipCard);
-    secondCard.removeEventListener('click', flipCard);
+function disableBills() {
+    firstBill.remoteEventListener('click', flipBill);
+    secondBill.removeEventListener('click', flipBill);
 
     resetBoard();
 }
 
-function unflipCards(){
+function unflipBills(){
     freezeBoard = true;
     setTimeout(() => {
-        firstCard.classList.remove('flip');
-        secondCard.classList.remove('flip');
+        firstBill.classList.remove('flip');
+        secondBill.classList.remove('flip');
         freezeBoard = false;
         resetBoard();
-    }, 1500);
+    }, 1000);
 }
 
 function resetBoard() {
-    [hasFlippedCard, freezeBoard] = [false, false];
-    [firstCard, secondCard] = [null, null];
+    [hasFlippedBill, freezeBoard] = [false, false];
+    [firstBill, secondBill] = [null, null];
 }
 
 (function shuffle() {
@@ -59,4 +59,4 @@ function resetBoard() {
     });
     })();
 
-cards.forEach(card => card.addEventListener('click', flipCard));
+cards.forEach(card => card.addEventListener('click', flipBill));
