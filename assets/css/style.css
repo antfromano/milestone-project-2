@@ -63,6 +63,8 @@ h1 {
     height: calc(33.333% - 10px);
     margin: 2px;
     position: relative;
+    transform-style:  preserve-3d;
+    transform: scale(1);
 }
 
 .front, .back {
@@ -72,5 +74,10 @@ h1 {
     position: absolute;
     border-radius: 2px;
     background: white;
+}
+
+.match-card:active {
+    transform: scale(0.75);
+    transition: transform .25s;
 }
 /*--cards--*/
