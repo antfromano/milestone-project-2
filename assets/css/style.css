@@ -65,7 +65,7 @@ h1 {
     margin: 2px;
     position: relative;
     transform: scale(1);
-    transform-style: preserver-3d;
+    transform-style: preserve-3d;
     transition: transform .25s;
 }
 
@@ -76,6 +76,7 @@ h1 {
     position: absolute; 
     border-radius: 2px;
     background: white;
+    backface-visibility: hidden;
 }
 
 .match-card:active {
