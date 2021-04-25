@@ -5,14 +5,13 @@ html {
 
 
 * {
-    padding: 0;
+    padding-top: 12px;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
     height: 100vh;
-    display: flex;
 /*--insert background: color--*/
 
     font-family: 'Balsamiq Sans', Sans Serif;
@@ -26,6 +25,15 @@ h1 {
     font-weight: 900 !important; 
 }
 /*--callout--*/
+
+/*--Back Icon--*/
+.arrow {
+    margin-left: 25px;
+    font-size: 2.5em;
+    color: black;
+    font-weight: 900 !important; 
+}
+/*--back icon--*/
 
 /*--Start Game Buttons--*/
 .btn-circle1.btn-xl {
@@ -44,17 +52,11 @@ h1 {
     border-color: black;
     font-size: 15px;
     text-align: center;
-        }
-/*--start game buttons--*/
-
-/*--Back Icon--*/
-.arrow {
-    margin-left: 7.5px;
-    font-size: 2.5em;
-    color: black;
-    font-weight: 900 !important; 
 }
-/*--back icon--*/
+.navbar>.container, .navbar>.container-fluid {
+    justify-content: center;
+}
+/*--start game buttons--*/
 
 /*--Match Game--*/
 .match-game {
