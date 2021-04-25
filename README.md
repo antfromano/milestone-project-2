@@ -8,35 +8,24 @@ An interactive matching game site designed using HTML, CSS, Bootstrap and JavaSc
 
 ## User Experience (UX)
 
-Designed to provide a user experience for Potential Employers, recruiters and future collaborators to highlight software development skills combining a resume project with a concise comic book
-aesthetic while providing links to project examples using a clean simple accessible and visually interesting format.
+Designed to provide a simple match game experience for game players while highlighting software development skills.
 
 -   ### User stories
 
-    -   #### Potential Employer Goals
+    -   #### Game Player
 
-        1. As a Potential Employer, I want to evaluate Ant Romano's Full Stack Software Development skills through a live website and it's corresponding code and documentation.
-        2. As a Potential Employer, I want to locate their social media links to evaluate their relevant social media.
-        3. As a Potential Employer, I want a simple format to contact with regards to job opportunities.
+        1. As a Game Player, I want instructions on how to start and play the game.
+        ![Alt text](img/indexscreenshot.JPG)
+
+        2. As a Game Player, I want a simple user interface and functional interactivity.
+        ![Alt text](img/newgamescreenshot.JPG)
         
-        ![Alt text](assets/images/contactpagescreenshot.jpg)
-    -   #### Recruiter Goals
-
-        1. As a Recruiter, I want to evaluate and share with potential employers Ant Romano's Full Stack Software Development skills through a live website and its corresponding code and documentation.
-        2. As a Recruiter, I want to locate their social media links to evaluate their relevant social media.
-        3. As a Recruiter, I want a simple format to with regards to job opportunities.
-
-        ![Alt text](assets/images/contactpagescreenshot.jpg)
-    -  #### Future Collaborator Goals
-        1. As a Future Collaborator, I want to evaluate Ant Romano's Full Stack Software Development skills through a live website and it's corresponding code and documentation.
-        2. As a Future Collaborator, I want to locate their social media links to evaluate their relevant social media.
-        3. As a Future Collaborator, I want a simple format to with regards to projects.
-
-        ![Alt text](assets/images/contactpagescreenshot.jpg)
+        3. As a Game Player, I want a visually and audibly rewarding experience.
+        ![Alt text](img/completedgamescreenshot.JPG)
 
 -   ### Design
     -   #### Color Scheme
-        -   The main colors used are black, gray and white.
+        -   The main colors used are black, gray and white with flipped cards that are red, orange, yellow, green, blue and purple.
     -   #### Typography
         -   The Balsamiq Sans font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
     -   #### Imagery
@@ -99,24 +88,25 @@ JShint was also used to validate every page of the project to ensure there were 
 
 ### Testing User Stories from User Experience (UX)
 
--   #### Potential Employer Goals
+-   #### Game Player Goals
 
-    1. As a Potential Employer, I want to evaluate Ant Romano's Full Stack Software Development skills through a live website and it's corresponding code and documentation.
+    1. As a Game Player, I want instructions on how to start and play the game.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is simple introduction, Hero Images with Text and social media links.
-        2. The main points are made immediately with the introduction and hero images.
-        3. The user has three options, click the navigation buttons, hero image links or social media links, all of which will lead provide an opportunity to evaluate software development skills.
+        1. Upon entering the site, players are greeted with the name of the game, easily readable instructions and a start game button which brings them to the game board.
+        2. The main points are made immediately with the name of the game, instructions and start game button.
+        3. The player can read the name of the game, instructions and click the start game button which brings them to the game board.
  
-    2. As a Potential Employer, I want to locate their social media links to evaluate their relevant social media.
+    2. 2. As a Game Player, I want a simple user interface and functional interactivity.
 
-        1. The site has been designed to be simple to navigate. 
-        2. At the bottom of each page there are social media links and each link is easily identifiable.
-        3. Each social media link opens up in a new page for evaluation.
+        1. The game board has been designed to be simple to navigate. 
+        2. Each card is spaced evenly and flips cleanly when the chosen pairs are clicked.
+        3. The cards remain flipped when the chosen pair matches.
+        4. The restart button allows the player to restart the game at any point during game play.
 
-    3. As a Potential Employer, I want a simple format to contact with regards to job opportunities.
-        1. Once the Potential Employer has read the Home, Skills and Project pages, they will notice the Contact page.
-        2. The user can easily utilize the navigation bar on every page to reach the Contact page.
-        3. The Contact page allows for the Potential Employer to simply provide their name, email and applicable message regading potential job opportunities.
+    3. As a Game Player, I want a visually and audibly rewarding experience.
+        1. The colorful cards remain flipped when the chosen pair matches.
+        2. A ch-ching sound confirms when the chosen pair matches and the cards remain flipped.
+        3. The colorful pair matches remain flipped until all cards are matched.
 
 ### Further Testing
 
