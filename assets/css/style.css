@@ -26,11 +26,10 @@ h2 {
     text-align: center;
     flex-wrap: wrap;
 }
-
 /*--callout--*/
 
 /*--Start Game and Restart Buttons--*/
-.btn-circle1,  .btn-circle2 {
+.btn-start,  .btn-restart {
     font-size: 15px;
     text-align: center;
     border-color: black;
