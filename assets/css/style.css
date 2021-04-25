@@ -58,8 +58,8 @@ h1 {
 
 /*--Match Game--*/
 .match-game {
-    width: 750px;
-    height: 750px;
+    width: 700px;
+    height: 500px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

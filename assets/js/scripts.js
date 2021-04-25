@@ -15,7 +15,6 @@ function flipBill() {
     firstBill = this;
     return;
     }
-
     secondBill = this;
     hasFlippedBill = false;
     
@@ -24,6 +23,8 @@ checkForMatch();
 
 function checkForMatch() {
     if(firstBill.dataset.framework === secondBill.dataset.framework) {
+        var audio = new Audio('assets/ch-ching.wav');
+        audio.play();
         disableBills();
         return;
     }
