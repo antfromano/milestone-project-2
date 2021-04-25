@@ -96,7 +96,7 @@ JShint was also used to validate every page of the project to ensure there were 
         2. The main points are made immediately with the name of the game, instructions and start game button.
         3. The player can read the name of the game, instructions and click the start game button which brings them to the game board.
  
-    2. 2. As a Game Player, I want a simple user interface and functional interactivity.
+    2. As a Game Player, I want a simple user interface and functional interactivity.
 
         1. The game board has been designed to be simple to navigate. 
         2. Each card is spaced evenly and flips cleanly when the chosen pairs are clicked.
