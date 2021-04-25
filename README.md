@@ -44,7 +44,7 @@ Designed to provide a simple match game experience for game players while highli
 
 ## Features Left to Implement/Other Feature Ideas
 
--   Countdown timer, score keeper, and winner display.
+-   Countdown timer, moves count, score keeper, and winner display.
 
 ## Technologies
 
