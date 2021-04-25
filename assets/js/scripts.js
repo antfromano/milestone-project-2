@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // Select all match-card elements
 const cards = document.querySelectorAll('.match-card');
 
