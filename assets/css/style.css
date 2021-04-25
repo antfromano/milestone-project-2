@@ -16,7 +16,7 @@ body {
 
 /*--Callout--*/
 h1 {
-    font-size: 7.5em;
+    font-size: 5em;
     font-weight: 900 !important;
     text-align: center;
     margin-top: 175px;
@@ -29,7 +29,7 @@ h2 {
 /*--callout--*/
 
 /*--Start Game and Restart Buttons--*/
-.btn-start,  .btn-restart {
+.btn-start, .btn-restart {
     font-size: 15px;
     text-align: center;
     border-color: black;
