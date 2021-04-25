@@ -92,11 +92,16 @@ h1 {
     transition: transform .25s;
 }
 
+/*--Flip Class Rotates Bill--*/
 .match-card.flip {
     transform: rotateX(180deg);
 }
+/*--flip class rotates bill--*/
 
+/*--Rotates Front--*/
 .front {
     transform: rotateX(180deg);
 }
+/*--rotates front--*/
+
 /*--cards--*/

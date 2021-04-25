@@ -1,9 +1,12 @@
+// Select all match-card elements
 const cards = document.querySelectorAll('.match-card');
 
+// Match logic, freezes board and assigns firstBill and secondBill
 let hasFlippedBill = false;
 let freezeBoard = false;
 let firstBill, secondBill;
 
+// flipBill function runs on bill click with match logic and stops double click
 function flipBill() {
     if (freezeBoard) return;
     if (this === firstBill) return;
@@ -21,6 +24,7 @@ function flipBill() {
 checkForMatch();
 }
 
+// Accesses bill dataset, checks for match, plays audio and runs disableBills and unflipBills
 function checkForMatch() {
     if(firstBill.dataset.framework === secondBill.dataset.framework) {
         var audio = new Audio('assets/ch-ching.wav');
@@ -31,6 +35,7 @@ function checkForMatch() {
     unflipBills();
 }
 
+// Event listener to stop additional flipping
 function disableBills() {
     firstBill.remoteEventListener('click', flipBill);
     secondBill.removeEventListener('click', flipBill);
@@ -38,6 +43,7 @@ function disableBills() {
     resetBoard();
 }
 
+// Flips bills back
 function unflipBills(){
     freezeBoard = true;
     setTimeout(() => {
@@ -48,11 +54,13 @@ function unflipBills(){
     }, 1000);
 }
 
+// Resets firstBill and secondBill variables
 function resetBoard() {
     [hasFlippedBill, freezeBoard] = [false, false];
     [firstBill, secondBill] = [null, null];
 }
 
+// Shuffles bills
 (function shuffle() {
     cards.forEach(card => {
         let randomPosition = Math.floor(Math.random() * 12);
@@ -60,4 +68,5 @@ function resetBoard() {
     });
     })();
 
+// EventListener for each time bill is clicked runs flipBill function
 cards.forEach(card => card.addEventListener('click', flipBill));
