@@ -4,7 +4,7 @@
 
 An interactive matching game site designed using HTML, CSS, Bootstrap and JavaScript  to highlight skills learned during Full Stack Software Development coursework.
 
-<h2 align="center"><img src="/workspace/milestone-project-2/img/multidevicewebsitemockup.jpg"></h2>g
+<h2 align="center"><img src="/workspace/milestone-project-2/img/multidevicewebsitemockup.jpg"></h2>
 
 ## User Experience (UX)
 
