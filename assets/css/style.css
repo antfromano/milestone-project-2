@@ -19,8 +19,14 @@ h1 {
     font-size: 7.5em;
     font-weight: 900 !important;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 175px;
+    flex-wrap: wrap;
 }
+h2 {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
 /*--callout--*/
 
 /*--Start Game and Restart Buttons--*/
@@ -53,6 +59,7 @@ h1 {
     flex-wrap: wrap;
     perspective: 500px;
 }
+
 @media only screen and (max-width: 500px) {
   .flex {
     margin-top: 15%;
