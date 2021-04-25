@@ -24,23 +24,12 @@ h1 {
 /*--callout--*/
 
 /*--Start Game and Restart Buttons--*/
-.btn-circle1.btn-xl {
+.btn-circle1,  .btn-circle2 {
     font-size: 15px;
     text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
     border-color: black;
 }
 
-.btn-circle2 {
-    font-size: 15px;
-    text-align: center;
-    width: 75px;
-    height: 75px;
-    border-radius: 50px;
-    border-color: black;
-}
 .navbar>.container, .navbar>.container-fluid {
     justify-content: center;
 }
@@ -63,6 +52,46 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     perspective: 500px;
+}
+@media only screen and (max-width: 500px) {
+  .flex {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .match-game {
+    width: 540px;
+    height: 540px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .match-game {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .match-game {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .match-game {
+    width: 325px;
+    height: 325px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .match-game {
+    width: 275px;
+    height: 275px;
+  }
 }
 /*--match game--*/
 
