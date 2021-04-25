@@ -4,7 +4,7 @@
 
 An interactive matching game site designed using HTML, CSS, Bootstrap and JavaScript  to highlight skills learned during Full Stack Software Development coursework.
 
-<h2 align="center"><img src=" "></h2>
+<h2 align="center"><img src="/workspace/milestone-project-2/img/multidevicewebsitemockup.jpg"></h2>
 
 ## User Experience (UX)
 
@@ -33,18 +33,19 @@ aesthetic while providing links to project examples using a clean simple accessi
         3. As a Future Collaborator, I want a simple format to with regards to projects.
 
         ![Alt text](assets/images/contactpagescreenshot.jpg)
+
 -   ### Design
     -   #### Color Scheme
         -   The main colors used are black, gray and white.
     -   #### Typography
         -   The Balsamiq Sans font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
     -   #### Imagery
-        -   Background Image - selected for a comic book aesthetic and filtered to grayscale.  
-        -   Utilized HTML, CSS and Bootstrap with background image from [here](https://www.freepik.com/free-vector/abstract-bright-comic-book-background_1124955.ht) and guidance from [here](https://stackoverflow.com/questions/10869739/how-to-make-full-screen-background-in-a-web-page)
+        -   Utilized HTML, CSS, Javascript and Bootstrap.
+        -   Bill images obtained [here](https://www.webnots.com/icon-to-image-converter/icon/money) and resized [here](https://online-photo-converter.com/resize-photo)
 
 *   ### Wireframes
 
-    -   The Balsamiq Cloud Wireframe providing framework for development is accessible [here](https://github.com/antfromano/milestone-project-1/blob/master/docs/wireframe_from_balsamiq.pdf)
+    -   The Balsamiq Cloud Wireframe providing framework for development is accessible [here](https://github.com/antfromano/milestone-project-2/blob/e4849dc31940bdcd2ccdc165cd128a89167c7342/docs/wireframe_from_balsamiq.pdf.pdf)
 
 ## Features
 
@@ -54,9 +55,7 @@ aesthetic while providing links to project examples using a clean simple accessi
 
 ## Features Left to Implement/Other Feature Ideas
 
--   Index/Home Page Callout - Additional shield like icons for software development languages learned.
-
--   Projects Page/Cards - Additional Project Cards for future projects.
+-   Countdown timer, score keeper, and winner display.
 
 ## Technologies
 
@@ -64,6 +63,7 @@ aesthetic while providing links to project examples using a clean simple accessi
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs
 
@@ -73,25 +73,29 @@ aesthetic while providing links to project examples using a clean simple accessi
     - for implementation fonts.
 1. [Font Awesome:](https://fontawesome.com/)
     - for simple implementation of icons/ci_logo_small.
-1. [GitHub:](https://github.com/antfromano/milestone-project-1)
+1. [GitHub:](https://github.com/antfromano/milestone-project-2)
     - as a repository, distributed version-control system for tracking changes and to deploy and host final version of code.
 1. [Gitpod:](https://gitpod.io/)
     - as a collaborative development environment.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/antfromano/milestone-project-1/blob/master/docs/wireframe_from_balsamiq.pdf) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/antfromano/milestone-project-2/blob/e4849dc31940bdcd2ccdc165cd128a89167c7342/docs/wireframe_from_balsamiq.pdf.pdf) during the design process.
     
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/antfromano/milestone-project-1/blob/master/docs/results_Nu_Html_Checker.pdf)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/antfromano/milestone-project-2/blob/f798d64ba05a86875949822a56bae3a264a1df1f/docs/W3C_CSS_Validator%20results.pdf.pdf)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/antfromano/milestone-project-2/blob/e4849dc31940bdcd2ccdc165cd128a89167c7342/docs/results_Nu_Html_game_results.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/antfromano/milestone-project-2/blob/e4849dc31940bdcd2ccdc165cd128a89167c7342/docs/W3C_CSS_Validator%20results.pdf)
 
 Lighthouse was also used to validate the project for performance, accessability, best practices and SEO.
 
 -   [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Desktop Results](https://github.com/antfromano/milestone-project-2/blob/f798d64ba05a86875949822a56bae3a264a1df1f/docs/Lighthouse_game_desktop_summary.pdf)
 
 -   [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Mobile Results](https://github.com/antfromano/milestone-project-2/blob/f798d64ba05a86875949822a56bae3a264a1df1f/docs/Lighthouse_game_mobile_summary.pdf)
+
+JShint was also used to validate every page of the project to ensure there were no JavaScript errors in the project.
+
+-   [JSHint](https://jshint.com/) - [Results](https://github.com/antfromano/milestone-project-2/blob/e4849dc31940bdcd2ccdc165cd128a89167c7342/docs/JSHint_results.pdf)
 
 ### Testing User Stories from User Experience (UX)
 
