@@ -1,45 +1,200 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Milestone Project 2 - Money Match - Ant Romano</h1>
 
-Welcome antfromano,
+[View the live project here.](https://antfromano.github.io/milestone-project-2/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+An interactive matching game site designed using HTML, CSS, Bootstrap and JavaScript  to highlight skills learned during Full Stack Software Development coursework.
 
-## Gitpod Reminders
+<h2 align="center"><img src=" "></h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+Designed to provide a user experience for Potential Employers, recruiters and future collaborators to highlight software development skills combining a resume project with a concise comic book
+aesthetic while providing links to project examples using a clean simple accessible and visually interesting format.
 
-A blue button should appear to click: _Make Public_,
+-   ### User stories
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Potential Employer Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        1. As a Potential Employer, I want to evaluate Ant Romano's Full Stack Software Development skills through a live website and it's corresponding code and documentation.
+        2. As a Potential Employer, I want to locate their social media links to evaluate their relevant social media.
+        3. As a Potential Employer, I want a simple format to contact with regards to job opportunities.
+        
+        ![Alt text](assets/images/contactpagescreenshot.jpg)
+    -   #### Recruiter Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a Recruiter, I want to evaluate and share with potential employers Ant Romano's Full Stack Software Development skills through a live website and its corresponding code and documentation.
+        2. As a Recruiter, I want to locate their social media links to evaluate their relevant social media.
+        3. As a Recruiter, I want a simple format to with regards to job opportunities.
 
-Another blue button should appear to click: _Open Browser_.
+        ![Alt text](assets/images/contactpagescreenshot.jpg)
+    -  #### Future Collaborator Goals
+        1. As a Future Collaborator, I want to evaluate Ant Romano's Full Stack Software Development skills through a live website and it's corresponding code and documentation.
+        2. As a Future Collaborator, I want to locate their social media links to evaluate their relevant social media.
+        3. As a Future Collaborator, I want a simple format to with regards to projects.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+        ![Alt text](assets/images/contactpagescreenshot.jpg)
+-   ### Design
+    -   #### Color Scheme
+        -   The main colors used are black, gray and white.
+    -   #### Typography
+        -   The Balsamiq Sans font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+    -   #### Imagery
+        -   Background Image - selected for a comic book aesthetic and filtered to grayscale.  
+        -   Utilized HTML, CSS and Bootstrap with background image from [here](https://www.freepik.com/free-vector/abstract-bright-comic-book-background_1124955.ht) and guidance from [here](https://stackoverflow.com/questions/10869739/how-to-make-full-screen-background-in-a-web-page)
 
-## Updates Since The Instructional Video
+*   ### Wireframes
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    -   The Balsamiq Cloud Wireframe providing framework for development is accessible [here](https://github.com/antfromano/milestone-project-1/blob/master/docs/wireframe_from_balsamiq.pdf)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-   Responsive on all device sizes
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   Attractive, efficient and interactive elements
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Features Left to Implement/Other Feature Ideas
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-   Index/Home Page Callout - Additional shield like icons for software development languages learned.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-   Projects Page/Cards - Additional Project Cards for future projects.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Technologies
 
----
+### Languages
 
-Happy coding!
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs
+
+1. [Bootstrap:](https://getbootstrap.com/)
+    - for structure and layout.
+1. [Google Fonts:](https://fonts.google.com/)
+    - for implementation fonts.
+1. [Font Awesome:](https://fontawesome.com/)
+    - for simple implementation of icons/ci_logo_small.
+1. [GitHub:](https://github.com/antfromano/milestone-project-1)
+    - as a repository, distributed version-control system for tracking changes and to deploy and host final version of code.
+1. [Gitpod:](https://gitpod.io/)
+    - as a collaborative development environment.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/antfromano/milestone-project-1/blob/master/docs/wireframe_from_balsamiq.pdf) during the design process.
+    
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/antfromano/milestone-project-1/blob/master/docs/results_Nu_Html_Checker.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/antfromano/milestone-project-2/blob/f798d64ba05a86875949822a56bae3a264a1df1f/docs/W3C_CSS_Validator%20results.pdf.pdf)
+
+Lighthouse was also used to validate the project for performance, accessability, best practices and SEO.
+
+-   [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Desktop Results](https://github.com/antfromano/milestone-project-2/blob/f798d64ba05a86875949822a56bae3a264a1df1f/docs/Lighthouse_game_desktop_summary.pdf)
+
+-   [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Mobile Results](https://github.com/antfromano/milestone-project-2/blob/f798d64ba05a86875949822a56bae3a264a1df1f/docs/Lighthouse_game_mobile_summary.pdf)
+
+### Testing User Stories from User Experience (UX)
+
+-   #### Potential Employer Goals
+
+    1. As a Potential Employer, I want to evaluate Ant Romano's Full Stack Software Development skills through a live website and it's corresponding code and documentation.
+
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is simple introduction, Hero Images with Text and social media links.
+        2. The main points are made immediately with the introduction and hero images.
+        3. The user has three options, click the navigation buttons, hero image links or social media links, all of which will lead provide an opportunity to evaluate software development skills.
+ 
+    2. As a Potential Employer, I want to locate their social media links to evaluate their relevant social media.
+
+        1. The site has been designed to be simple to navigate. 
+        2. At the bottom of each page there are social media links and each link is easily identifiable.
+        3. Each social media link opens up in a new page for evaluation.
+
+    3. As a Potential Employer, I want a simple format to contact with regards to job opportunities.
+        1. Once the Potential Employer has read the Home, Skills and Project pages, they will notice the Contact page.
+        2. The user can easily utilize the navigation bar on every page to reach the Contact page.
+        3. The Contact page allows for the Potential Employer to simply provide their name, email and applicable message regading potential job opportunities.
+
+### Further Testing
+
+-   Tested on Google Chrome, Internet Explorer and Microsoft Edge.
+-   Viewed on variety of devices such as Desktop, Chromebook and Pixel XL.
+-   Testing was done to ensure that all pages linked correctly.
+-   Friends and family were asked to review site and documentation for any bugs and/or user issues.
+-   Attempted to click bills in excess of two times and was unable to.
+-   Tested start game, restart and back buttons extensively.
+
+### Known Bugs
+
+-   On some mobile devices the headings on index.html and game board on game.html aren't fully centered.
+-   On some mobile devices the images on the game board on game.html are blurier than on larger screens.
+
+## Deployment
+
+### GitHub Pages
+
+Project was deployed to GitHub Pages with the following steps...
+
+1. Log in GitHub and locate [GitHub Repository](https://github.com/)
+2. At top of Repository, locate "Settings" Button.
+    - [Here](https://raw.githubusercontent.com/) is a GIF demonstrating the process.
+3. Scroll down Settings page to"GitHub Pages".
+4. Under "Source", click dropdown "None" and select "Master Branch" which automatically refresh the page.
+5. Scroll down to the newly published site [link](https://github.com) in "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+Forking the GitHub Repository makes an original repository copy on oGitHub account for viewing and/or making changes but not affecting original repository achieve with the following steps.
+
+1. Log in GitHub and locate [GitHub Repository](https://github.com/)
+2. At top of Repository, locate "Fork" Button where there is now a copy of original repository.
+
+### Making a Local Clone
+
+1. Log in GitHub and locate [GitHub Repository](https://github.com/)
+2. Under repository name, select "Clone or download".
+3. For cloning repository using HTTPS copy the link under "Clone with HTTPS".
+4. Open Git Bash and modify current working directory to location of your preferred cloned directory.
+5. Input `git clone`, and paste copied URL from Step 3.
+
+```
+$ git clone https://github.com/antfromano/milestone-project-2
+```
+
+6. Press Enter. Local clone is created.
+
+```
+$ git clone https://github.com/antfromano/milestone-project-2
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Code
+
+-   [Bootstrap](https://getbootstrap.com/): Bootstrap Library used to make site responsive.
+
+-   [Memory Game](https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/): JavaScript concepts used to develop match game.
+
+### Content
+
+-   All content was written by the developer.
+
+-   The format for README.md was taken from [here](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+
+### Media
+
+-   ch-ching.wav audio created by hgernhardt - https://freesound.org/ from [here](https://freesound.org/people/hgernhardt/sounds/402651/)
+
+### Acknowledgements
+
+-   Mentorship and guidance provided by Aaron Sinnott from Code Institute
+
+-   Tutor support at Code Institute for their support.
+
+-   I received inspiration for this project from Marina Ferreira and Amy Keedwell.
