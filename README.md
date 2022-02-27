@@ -1,6 +1,6 @@
 <h1 align="center">Milestone Project 2 - Money Match - Ant Romano</h1>
 
-[View the live project here.](https://antfromano.github.io/milestone-project-2/)
+[View the live project here.](https://antfromano.github.io/milestone-project-2-money-match/)
 
 An interactive matching game site designed using HTML, CSS, Bootstrap and JavaScript to highlight skills learned during Full Stack Software Development coursework.
 
